@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 900px;  /* Header resmini küçültüyoruz */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.intro-text {
+    font-size: 2rem;
+    color: #666;
+    margin: 15px 0;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.content-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content-item img.content-image {
+    width: 40%;
+    height: auto;
+}
+
+.text-container {
+    padding: 20px;
+    width: 60%;
+}
+
+.text-container h2 {
+    font-size: 2.5rem;
+    color: #020202;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.quote {
+    background-color: #D8D8D8;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.watch-class {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.watch-left h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.watch-left p.content-text {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.watch-right img.content-image {
+    width: 400pxs;
+    height: auto;
+    border-radius: 8px;
+}
+
+.additional-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.additional-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer-image {
+    width: 100%;
+    max-width: 900px;  /* Footer resmini küçültüyoruz */
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+}
